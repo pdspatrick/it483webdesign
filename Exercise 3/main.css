@@ -1,0 +1,25 @@
+h1::first-letter{font-size: 200%;}
+
+P{font-family: sans-serif}
+
+#title{
+    
+    color: orange;
+    text-shadow: 2px 2px #000000;
+    font-style: italic;
+    font-size: 35;
+    font-family: sans-serif;
+}
+
+#floatleft{float:left}
+
+#copyright{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .7em;
+}
+
+a{color: orange;
+font-family: sans-serif;}
+
+li{line-height: 1.5em;}
