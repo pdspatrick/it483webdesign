@@ -1,0 +1,76 @@
+body{
+    background-image: url("bats.gif");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+#contentbox{
+    border: 0px solid blue;
+    box-shadow: 0 6px 20px 10px black;
+    margin: auto;
+    max-width: 800px;
+}
+h1::first-letter{font-size: 200%;}
+
+P{font-family: sans-serif}
+
+#title{
+    font-size: 35;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+#floatleft{float:left}
+
+#headertext{
+    line-height: 0.4em;
+}
+
+#copyright{
+    text-align: center;
+
+    font-size: 12;
+    max-width: 800px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    background: linear-gradient(to bottom left, white, orange, black);
+    padding: 10px;
+
+}
+
+a{color: orange;
+font-family: sans-serif;}
+
+li{line-height: 1.5em;}
+
+#subtitle{
+    padding-top: -10px;
+
+}
+
+main{
+    max-width: 800px;
+    border: 4px solid black;
+    margin: auto;
+    background-color: white;
+
+
+    
+}
+#aside{
+    float: left;
+}
+header{
+    max-width: 800px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    border-bottom: 1px solid transparent;
+    background: linear-gradient(to top right, white, orange, black);
+
+}
+
