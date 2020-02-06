@@ -1,0 +1,91 @@
+body{
+    background-image: url("bats.gif");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+#leftlist{
+    float: left;
+    width: 160px;
+    margin-left: -7em
+}
+#contentbox{
+    border: 0px solid blue;
+    box-shadow: 0 6px 20px 10px black;
+    margin: auto;
+    width: 800px;
+}
+h1::first-letter{font-size: 200%;}
+
+P{font-family: sans-serif}
+
+#title{
+    font-size: 35;
+    font-family: sans-serif;    
+}
+
+#floatleft{float:left}
+
+#headertext{
+    line-height: 0.4em;
+}
+
+#copyright{
+    text-align: center;
+    text-indent: -25%;
+    font-size: 12;
+    width: 800px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    background: linear-gradient(to bottom left, white, orange, black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: -160px;
+
+}
+
+a{color: orange;
+font-family: sans-serif;}
+
+li{line-height: 1.5em;}
+
+#subtitle{
+
+}
+
+main{
+    width: 800px;
+    border: 4px solid black;
+    border-top: 3px solid black;
+    margin: auto;
+    background-color: white;
+}
+
+header{
+    width: 800px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to top right, white, orange, black);
+    box-shadow: 20px, 20px, 20px, black;
+
+}
+.columnleft {
+    float: left;
+    width: 160px;
+    height: 100%;
+    padding-top: 10px;
+}
+.columnright {
+  width: 640px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
