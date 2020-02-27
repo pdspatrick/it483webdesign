@@ -1,0 +1,260 @@
+body{
+    background-image: url("bats.gif");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgray;
+  color: white;
+}
+.topnav .linkactive {
+  color: orange;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* make leftnav into buttons*/
+#leftnav ul {
+    max-width: inherit;
+}
+
+#leftnav li {
+
+    list-style: none;
+    text-align: left;
+    color: black;
+    margin-right: 1px;
+    line-height: 30px;
+    padding-top: 5px;
+    margin-left: -1.4em;
+    min-width: 115px;
+}
+#leftnav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    background-color: orange;
+    border: 2px solid black;
+    width: inherit;
+    min-width: 115px;
+
+    
+}
+
+#leftnav li a:hover {
+    color: orange;
+    background-color: black;
+}
+
+#contentbox{
+    border: 0px solid blue;
+    box-shadow: 0 6px 20px 10px black;
+    margin:auto;
+    max-width: 95% or 960px;
+    min-width: 480px;
+}
+h1::first-letter{font-size: 200%;}
+
+P{font-family: sans-serif}
+
+#title{
+    font-size: 35;
+    font-family: sans-serif;    
+}
+
+#floatleft{float:left}
+
+#headertext{
+    line-height: 0.4em;
+}
+nav{
+    background-color: black;   
+}
+
+}
+.dropdown{
+    float: left
+}
+
+#copyright{
+    text-align: center;
+    text-indent: -25%;
+    font-size: 12;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    background: linear-gradient(to bottom left, white, orange, black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: -160px;
+
+}
+
+a{color: orange;
+font-family: sans-serif;}
+
+
+#subtitle{
+
+}
+
+main{
+    max-width: 100%;
+    border: 4px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+}
+
+header{
+    max-width: 100%;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    background: linear-gradient(to top right, white, orange, black);
+    box-shadow: 20px, 20px, 20px, black;
+
+}
+.columnleft {
+    float: left;
+    max-width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    min-width: 115px;
+    min-height: 200px;
+}
+
+.columnright {
+
+    max-width: 100%;
+    padding-left: 150px;
+    padding-right: 2%;
+    min-height: 200px;
+}    
+
+.topnav .linkactive a {
+  color: orange;
+}
+
+.submit{
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.fulltable{
+    Width:75%;
+}
+.tableprice{
+    background-color:#ffd9c3;
+    text-align: right;
+        padding-bottom: 5px;
+    padding-top: 5px;
+}
+.tablecategory{
+    text-align: left;
+    font-weight: bold;
+        padding-bottom: 5px;
+    padding-top: 5px;
+}
+.tabledesc{
+    text-align: left;
+    color:black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+.tabledesc > a{
+    text-align: left;
+    color:black;
+    text-decoration-line: underline
+}
+.formtable{
+    
+}
+.fieldcell{
+    padding-top: 5px
+}
+
+.fieldlabel{
+    text-align: right;
+    padding-left: 50px;
+    padding-top: 5px
+    
+}
+
+
+th{
+    color: grey;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.centertitle {
+    text-align: center;
+    font-size: 1.5em;
+}
+.lefttitle {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/* So creen will only take 960px of width, or 95%, whichever is lesser */
+@media screen and (min-width: 960px){
+    #contentbox{
+        width: 960px;
+    }
+}
