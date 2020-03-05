@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Convert from Fahrenheit to Centigrade</title>
+    <script>
+       function temp2Cel() {
+            temp = 999;
+            temp = prompt("Enter Farenheit temperature, enter 999 to exit");
+            if (temp == 999 || temp == null) {
+                return
+            } if (temp > 212 || temp < -100|| isNaN(temp)){
+                alert("You Entered " + temp + ".\n Entry must range from -100 to 212.");
+                return
+            }
+           
+           else {
+            var newtemp = ((temp - 32) / 1.8);
+            alert("Farenheit temperature is " + temp + "\n\n Celsius Temperature is " + newtemp);
+            temp2Cel();
+            return
+            }
+            }
+            
+    </script>
+</head>
+<body onload="temp2Cel()">
+    <main>
+        <h1>Thanks for using the temperature converter</h1>
+    </main>
+</body>
+</html>
