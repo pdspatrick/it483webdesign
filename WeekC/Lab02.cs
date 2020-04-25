@@ -12,13 +12,14 @@ namespace it483
             string rx = "0";
             string tint = "0";
             double total = 0.0;
-            Console.WriteLine("What kind of glasses would you like?");
+            Console.WriteLine("What kind of glasses would you like:");
             while ((rx != "1") && (rx != "2"))
             {
                 Console.WriteLine("1 -> prescription, 2 -> non-prescription");
                 string rxin = Console.ReadLine();
                 rx = rxin;
             }
+            Console.WriteLine("\nWhat kind of coating would you like:");
             while ((tint != "1") && (tint != "2"))
             {
                 Console.WriteLine("1 -> anti-glare, 2 -> brown tint");
