@@ -1,0 +1,11 @@
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.exe
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.deps.json
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.runtimeconfig.json
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.runtimeconfig.dev.json
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.dll
+C:\Users\pdspa\source\repos\it483\bin\Debug\netcoreapp3.0\it483.pdb
+C:\Users\pdspa\source\repos\it483\obj\Debug\netcoreapp3.0\it483.csprojAssemblyReference.cache
+C:\Users\pdspa\source\repos\it483\obj\Debug\netcoreapp3.0\it483.AssemblyInfoInputs.cache
+C:\Users\pdspa\source\repos\it483\obj\Debug\netcoreapp3.0\it483.AssemblyInfo.cs
+C:\Users\pdspa\source\repos\it483\obj\Debug\netcoreapp3.0\it483.dll
+C:\Users\pdspa\source\repos\it483\obj\Debug\netcoreapp3.0\it483.pdb
